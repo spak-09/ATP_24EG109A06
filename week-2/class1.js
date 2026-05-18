@@ -4,12 +4,7 @@
  */
 
 class Book {
-  /**
-   * @param {string} title 
-   * @param {string} author 
-   * @param {number} pages 
-   * @param {boolean} [isAvailable=true] 
-   */
+
   constructor(title, author, pages, isAvailable = true) {
     this.title = title;
     this.author = author;
