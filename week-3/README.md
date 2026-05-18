@@ -24,23 +24,6 @@ A comprehensive full-stack backend demonstration using Express.js, Mongoose, and
 - `middlewares/`: Security and validation logic (`verifyToken.js`).
 - `auth/`: Authentication utilities.
 
-## Setup Instructions
-1. Navigate to the `backend2` directory.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Configure your environment in `.env`:
-   ```env
-   MONGODB_URI=mongodb://127.0.0.1:27017/backendDB
-   PORT=4000
-   JWT_SECRET=your_secret_key
-   ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
 ## Key API Endpoints
 ### User & Auth
 - `POST /user-api/auth`: Login and receive HttpOnly cookie.

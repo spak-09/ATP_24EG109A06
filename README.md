@@ -1,6 +1,6 @@
 # MERN Stack Training Repository
 
-## 📌 Repository Overview
+## Repository Overview
 
 This repository contains my complete MERN Stack training journey including:
 
@@ -15,7 +15,7 @@ The repository is organized week-by-week to track my learning progress and hands
 
 ---
 
-# 🚀 Technologies Used
+# Technologies Used
 
 ## Frontend
 
@@ -46,26 +46,26 @@ The repository is organized week-by-week to track my learning progress and hands
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```bash
-24EG109A56/
+WEEKLY_ASSIGNMENTS/
 │
-├── week-1_Assessments/
-├── week-2_Assessments/
-├── week-3_Assessments/
-├── week-4_Assessments/
-├── week-5_Assessments/
-├── week-6_Assessments/
+├── week-1/
+├── week-2/
+├── week-3/
+├── week-4/
+├── week-5/
+├── week-6/
 │
-└── CAPSTRONE-PROJECT/
+└── Capstone-Project(BlogAPP)/
 ```
 
 ---
 
-# 📖 Weekly Learning Summary
+#  Weekly Learning Summary
 
-## ✅ Week 1 – JavaScript Basics
+## Week 1 – JavaScript Basics
 
 Topics Covered:
 
@@ -87,7 +87,7 @@ Programs Included:
 
 ---
 
-## ✅ Week 2 – Advanced JavaScript & Backend Basics
+##  Week 2 – Advanced JavaScript & Backend Basics
 
 Topics Covered:
 
@@ -106,7 +106,7 @@ Projects Included:
 
 ---
 
-## ✅ Week 3 – Authentication & MongoDB
+## Week 3 – Authentication & MongoDB
 
 Topics Covered:
 
@@ -125,7 +125,7 @@ Projects Included:
 
 ---
 
-## ✅ Week 4 – HTML Practice
+##  Week 4 – HTML Practice
 
 Topics Covered:
 
@@ -141,7 +141,7 @@ Assignments Included:
 
 ---
 
-## ✅ Week 5 – Frontend Development & React Basics
+## Week 5 – Frontend Development & React Basics
 
 Topics Covered:
 
@@ -160,7 +160,7 @@ Projects Included:
 
 ---
 
-## ✅ Week 6 – React Advanced & Mini Projects
+## Week 6 – React Advanced & Mini Projects
 
 Topics Covered:
 
@@ -172,14 +172,14 @@ Topics Covered:
 
 Projects Included:
 
-### 🔹 Employee Mini Project
+### Employee Mini Project
 
 * Employee CRUD operations
 * React frontend
 * Express backend
 * MongoDB integration
 
-### 🔹 Counter & Context API Apps
+### Counter & Context API Apps
 
 * Shared state management
 * Context API implementation
@@ -187,9 +187,9 @@ Projects Included:
 
 ---
 
-# 🌟 Capstone MERN Project
+# Capstone MERN Project
 
-## 📝 Blog Application
+##  Blog Application
 
 A full-stack MERN Blog Application with:
 
@@ -222,68 +222,3 @@ A full-stack MERN Blog Application with:
 * Cloudinary
 
 ---
-
-# ⚙️ Installation & Setup
-
-## Clone Repository
-
-```bash
-git clone https://github.com/shivaprasadreddy2006/24EG109A56.git
-```
-
-## Navigate into Project
-
-```bash
-cd 24EG109A56
-```
-
----
-
-# ▶️ Running React Projects
-
-```bash
-npm install
-npm run dev
-```
-
----
-
-# ▶️ Running Backend Projects
-
-```bash
-npm install
-npm start
-```
-
----
-
-# 📌 Learning Outcomes
-
-Through this training repository I learned:
-
-* Full Stack MERN Development
-* REST API Development
-* Authentication & Authorization
-* React Component Architecture
-* State Management
-* MongoDB Database Integration
-* Git & GitHub Workflow
-* Project Structuring
-* Deployment Workflow
-
----
-
-# 👨‍💻 Author
-
-## Shivaprasad Reddy
-
-GitHub:
-[https://github.com/shivaprasadreddy2006](https://github.com/shivaprasadreddy2006)
-
----
-
-# ⭐ Final Note
-
-This repository represents my practical MERN Stack learning journey through weekly assessments, mini projects, and a complete capstone project.
-
-It demonstrates both frontend and backend development skills along with full-stack project integration.

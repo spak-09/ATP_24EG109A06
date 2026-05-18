@@ -19,8 +19,3 @@ This folder contains advanced JavaScript concepts and the first steps into backe
 | :--- | :--- | :--- |
 | `backend1/` | Express.js | A basic REST API with User and Product management. |
 | `modules1/` | ES Modules | Practice with `import` and `export` statements. |
-
-## Key Enhancements
-- **Refactored Logic**: Replaced manual loops with modern array methods.
-- **Improved Readability**: Added JSDoc headers and descriptive variable names.
-- **Backend Standards**: Added error handling middleware and consistent HTTP status codes to `backend1`.

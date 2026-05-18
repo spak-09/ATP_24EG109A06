@@ -16,21 +16,3 @@ This folder contains a collection of fundamental JavaScript scripts focusing on 
 | `search_in_array.js` | Searches for an element and returns its index. | `Array.indexOf` |
 | `rest_operator1.js` | Sums any number of arguments using the rest operator. | Rest Parameters, `Array.reduce` |
 
-## How to Run
-
-Ensure you have [Node.js](https://nodejs.org/) installed, then run any script using:
-
-```bash
-node <filename>.js
-```
-
-Example:
-```bash
-node array_operations.js
-```
-
-## Code Standards
-All scripts have been enhanced to:
-- Use **ES6+ syntax** (`const`/`let`, arrow functions, template literals).
-- Implement **modern array methods** (`reduce`, `find`, `indexOf`).
-- Include **JSDoc comments** for better readability and maintainability.
