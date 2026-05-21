@@ -28,8 +28,5 @@ An interactive dashboard for managing employee data.
 - **Tailwind CSS**: Standardized styling across all projects using a cohesive color system (Indigo, Rose, Slate).
 - **ES6+ Best Practices**: Used destructuring, arrow functions, and modern hook patterns (e.g., `useContext`).
 
-## How to Run
-Each project is a standalone React application:
-1. Navigate to the project folder (e.g., `Blogger`).
-2. Run `npm install`.
-3. Run `npm run dev`.
+# Deployment link:-
+https://atp-24-eg-109-a06-jjwv8fbtx-spak-09s-projects.vercel.app

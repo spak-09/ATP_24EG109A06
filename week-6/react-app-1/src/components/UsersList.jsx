@@ -1,7 +1,7 @@
-import User from "./user";
-function UsersList(props){
-//state
-const users = [
+import User from "./User";
+function UsersList(){
+    //state
+    const users = [
   {
     name: "Aarav Sharma",
     email: "aarav.sharma@example.com",
@@ -42,18 +42,26 @@ const users = [
     email: "priya.nair@example.com",
     image: "https://randomuser.me/api/portraits/women/13.jpg"
   },
-  
+  {
+    name: "Sneha Das",
+    email: "sneha.das@example.com",
+    image: "https://randomuser.me/api/portraits/women/14.jpg"
+  },
+  {
+    name: "Kavya Iyer",
+    email: "kavya.iyer@example.com",
+    image: "https://randomuser.me/api/portraits/women/15.jpg"
+  }
 ];
-return(
-  <div className="">
-    <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10   ">
+ 
+return (
+    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-15 bg-blue-400">
         {
-            users.map((userObj)=>(
-            <User user={userObj}/>
-        ))}
-    </div>
+            users.map(userObj=><User user={userObj} key={userObj.email} />)
+        }
     </div>
 )
-}   
+
+}
 
 export default UsersList

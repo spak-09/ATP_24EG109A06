@@ -1,12 +1,12 @@
-import UsersList from "./UsersList";
-function User(props){ //{user:{}}
- let {user}=props;
- return (
- <div className="text-center p-5 shadow-2xl rounded-2xl  ">
-    <h2 className="text-3xl text-red-500 ">{user.name}</h2>
-    <p className="font-bold mt-5">{user.email}</p>
-    <img src={user.image} alt="" className=" grid block mx-auto rounded-3xl mt-5 "/>
- </div>
- )
+function User(props){
+    const {user}=props
+    return (
+        <div className="shadow-2xl m-10 bg-gradient-to-r from-blue-500 via-orange-500 to-red-500 ">
+            <img className="m-auto p-5" src={user.image} />
+            <h2 className="text-center text-white mb-3 text-4xl">{user.name}</h2>
+            <h2 className="text-center mb-3 text-3xl">{user.email}</h2>
+        </div>
+    )
 }
+
 export default User

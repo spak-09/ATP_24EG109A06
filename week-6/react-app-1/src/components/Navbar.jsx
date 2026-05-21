@@ -1,19 +1,14 @@
 function Navbar(){
     return(
-        <div className="flex justify-between p-6 bg-gray-400 mx-2">
-            <h1>Logo</h1>
-            <ul className="flex gap-10">
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">Register</a>
-                </li>
-                <li>
-                    <a href="">Login</a>
-                </li>
+        <div className="flex justify-between p-8 bg-gray-800 text-white">
+            <h1>LOGO</h1>
+            <ul className="flex gap-20">
+                <li>Home</li>
+                <li>Register</li>
+                <li>Login</li>
             </ul>
         </div>
-    );
+    )
 }
-export default Navbar
+
+ export default Navbar
