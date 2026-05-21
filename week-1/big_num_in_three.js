@@ -1,6 +1,3 @@
-/**
- * Script to find the largest of three given numbers.
- */
 
 const a = 10;
 const b = 20;
